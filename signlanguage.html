@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+<style>
+body{
+ background-color: #368BC1
+}
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid black;
+}
+
+.button1:hover {
+  background-color: black;
+  color: white;
+}
+#signl {
+  width: 25%;
+  padding: 12px 12px;
+  box-sizing: border-box;
+}
+</style>
+<body>
+<center>
+
+<h2>Sign Languge Recognition Using Machine Learning</h2>
+
+<form action="/action_page.php">
+  <label for="fname"><b>Enter Sign:</b></label>
+  <select id="signl" name="signl">
+    <option value="volvo">FORWARD</option>
+    <option value="saab">STOP</option>
+    <option value="mercedes">LIKE</option>
+    <option value="audi">DISLIKE</option>
+    <option value="audi">RIGHT</option>
+ <option value="audi">LEFT</option>
+  </select>
+<br><br>
+  <input type="submit" class="button button1" value="Submit">
+</form> 
+</center>
+</body>
+</html>
